@@ -1,6 +1,7 @@
 @echo off
 echo Disconnecting old connections...
 adb disconnect
+rem disconnect any existing ADB connections to Android devices
 echo Setting up connected device
 adb tcpip 5555
 echo Waiting for device to initialize
