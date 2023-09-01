@@ -1,4 +1,4 @@
-# ADB-Hotspot
+# automated-adb-hotspot-connector
 
 This simple batch script automates the process of connecting to an Android device over a mobile hotspot using ADB. No need to manually find the device's IP address or run commands – just run the script.
 
