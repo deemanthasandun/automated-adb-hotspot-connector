@@ -11,3 +11,6 @@ echo Connecting to device with IP %ip%...
 adb connect %ip%
 echo Disconnect device if connected
 pause
+
+rem use wlan0 if device connected via primary wireless LAN interface."WLAN0" is the interface through which the device connects to Wi-Fi networks.
+rem use ap0 if device connected via access point (hotspot) functionality
